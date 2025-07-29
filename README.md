@@ -13,7 +13,7 @@ bash
 git clone https://github.com/TADI-I/MonkeyAndRiver.git
 ```
 
-3. Install Dependencies
+2. Install Dependencies
 Frontend
 
 bash
@@ -40,12 +40,12 @@ npm install pg
 ```
 
 3. Set up PostgreSQL Database
-1. Install PostgreSQL on your machine.
-2. Create a new database:
-```
-CREATE DATABASE monkeyandriver_db;
-```
-3. Update the config.js file in the backend directory with your PostgreSQL database credentials.
+    1. Install PostgreSQL on your machine.
+    2. Create a new database:
+      ```
+      CREATE DATABASE monkeyandriver_db;
+      ```
+      3. Update the config.js file in the backend directory with your PostgreSQL database credentials.
 
 4. Start the Application
 Frontend

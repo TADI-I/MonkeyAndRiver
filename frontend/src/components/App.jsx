@@ -7,11 +7,13 @@ import AlertsDashboard from './components/AlertsDashboard';
 import DiagnosticTests from './components/DiagnosticTests';
 import Register from './components/Register';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import './global.css';
 
   function App() {
   return (
    <Router>
+    <Navbar />
       <div style={{ minHeight: '100vh', position: 'relative', paddingBottom: '60px' }}>
         <Routes>
           <Route path="/" element={<Navigate to="/register" />} />

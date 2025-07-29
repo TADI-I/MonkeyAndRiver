@@ -7,54 +7,62 @@ We've chosen a full-stack application using React for the frontend and Node.js f
 ## Setup Steps:
 
 1. Clone the Repository
-
 bash
+
+```
 git clone https://github.com/TADI-I/MonkeyAndRiver.git
+```
 
-
-2. Install Dependencies
+3. Install Dependencies
 Frontend
 
 bash
+
+```
 cd frontend
 npm install
-
+```
 
 Backend
 
 bash
+
+```
 cd backend
 npm install
-
+```
 
 Database
 
 bash
+```
 npm install pg
-
+```
 
 3. Set up PostgreSQL Database
 1. Install PostgreSQL on your machine.
 2. Create a new database:
-
+```
 CREATE DATABASE monkeyandriver_db;
-
+```
 3. Update the config.js file in the backend directory with your PostgreSQL database credentials.
 
 4. Start the Application
 Frontend
 
 bash
+```
 cd frontend
 npm start
-
+```
 
 Backend
 
 bash
+```
 cd backend
 node app.js
-
+```
 
 5. Verify DB Connectivity
 Access the healthcheck endpoint (/healthcheck) to verify database connectivity.

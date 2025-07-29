@@ -1,35 +1,85 @@
-/* UserProfile.css */
-.user-profile input[type="text"],
-.user-profile input[type="email"],
-.user-profile input[type="password"] {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  transition: border-color 0.2s;
+.user-profile-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 24px;
+  background: #fdf6ff;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.user-profile input:focus {
+/* Heading */
+.user-profile-container h2 {
+  text-align: center;
+  color: #3d0070;
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+}
+
+/* Status Messages */
+.user-profile-container .error {
+  color: #d32f2f;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.user-profile-container .success {
+  color: #388e3c;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* Input fields */
+.user-profile-container input[type="text"],
+.user-profile-container input[type="email"],
+.user-profile-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  border: 2px solid #d0c3e0;
+  border-radius: 8px;
+  transition: border-color 0.3s, background-color 0.3s;
+  background-color: #fff;
+}
+
+.user-profile-container input:focus {
   border-color: #a020f0;
   background-color: #f8f0ff;
   outline: none;
 }
 
-.user-profile label {
-  display: block;
-  margin-bottom: 1rem;
+/* Checkbox labels */
+.user-profile-container label {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 12px;
+  gap: 0.5rem;
 }
 
-.user-profile button {
-  padding: 0.75rem 1rem;
-  background-color: #a020f0;
-  color: white;
-  border: none;
-  border-radius: 8px;
+/* Checkboxes */
+.user-profile-container input[type="checkbox"] {
+  transform: scale(1.1);
+  accent-color: #a020f0;
   cursor: pointer;
 }
 
-.user-profile button:hover {
+/* Save button */
+.user-profile-container button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #a020f0;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-profile-container button:hover {
   background-color: #7a1fc7;
 }

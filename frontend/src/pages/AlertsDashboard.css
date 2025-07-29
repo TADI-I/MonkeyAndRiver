@@ -1,0 +1,32 @@
+/* AlertsDashboard.css */
+
+.container.user-profile {
+  max-width: 700px;
+  margin: 100px auto 0 auto; /* Moves container down for navbar space */
+  padding: 2rem;
+  background: #fdf6ff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(128, 0, 128, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+.alerts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.alerts-list li {
+  padding: 1rem;
+  border-left: 4px solid #a020f0;
+  background: #f9f1ff;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.alerts-list li:hover {
+  background: #f2e6ff;
+}
+
+.alerts-list strong {
+  color: #6a0dad;
+}

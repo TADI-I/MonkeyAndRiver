@@ -5,6 +5,7 @@ import UserProfile from './components/UserProfile';
 import Login from './components/Login';
 import AlertsDashboard from './components/AlertsDashboard';
 import DiagnosticTests from './components/DiagnosticTests';
+import './global.css';
 
 export default function App() {
   return (

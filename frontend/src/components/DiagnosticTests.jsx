@@ -28,7 +28,7 @@ export default function DiagnosticTests() {
   };
 
   return (
-    <div>
+    <div className="container diagnostic-tests">
       <h2>Diagnostic Tests</h2>
       <input name="name" placeholder="Test Name" value={form.name} onChange={handleChange} />
       <input name="result" placeholder="Result" value={form.result} onChange={handleChange} />

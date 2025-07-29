@@ -1,0 +1,22 @@
+/* AlertsDashboard.css */
+.alerts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.alerts-list li {
+  padding: 1rem;
+  border-left: 4px solid #a020f0;
+  background: #f9f1ff;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.alerts-list li:hover {
+  background: #f2e6ff;
+}
+
+.alerts-list strong {
+  color: #6a0dad;
+}

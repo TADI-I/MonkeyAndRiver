@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import './AlertsDashboard.css'; // Make sure the path is correct
 export default function AlertsDashboard() {
   const [alerts, setAlerts] = useState([]);
 
@@ -10,7 +10,7 @@ export default function AlertsDashboard() {
   }, []);
 
   return (
-    <div>
+    <div className="container user-profile">
       <h2>Alerts Dashboard</h2>
       <ul>
         {alerts.map(alert => (

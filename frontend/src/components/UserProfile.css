@@ -1,0 +1,35 @@
+/* UserProfile.css */
+.user-profile input[type="text"],
+.user-profile input[type="email"],
+.user-profile input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+}
+
+.user-profile input:focus {
+  border-color: #a020f0;
+  background-color: #f8f0ff;
+  outline: none;
+}
+
+.user-profile label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.user-profile button {
+  padding: 0.75rem 1rem;
+  background-color: #a020f0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.user-profile button:hover {
+  background-color: #7a1fc7;
+}

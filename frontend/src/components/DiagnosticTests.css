@@ -1,0 +1,44 @@
+/* DiagnosticTests.css */
+.diagnostic-tests input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+}
+
+.diagnostic-tests input:focus {
+  border-color: #a020f0;
+  outline: none;
+  background-color: #f8f0ff;
+}
+
+.diagnostic-tests button {
+  padding: 0.75rem 1rem;
+  background-color: #a020f0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.diagnostic-tests button:hover {
+  background-color: #7a1fc7;
+}
+
+.diagnostic-tests ul {
+  list-style: none;
+  padding: 0;
+}
+
+.diagnostic-tests li {
+  padding: 1rem;
+  background: #f9f1ff;
+  border-left: 4px solid #a020f0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}

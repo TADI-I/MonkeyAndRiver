@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './login.css'; // Make sure the path is correct
 
 export default function Login() {
   const [profile, setProfile] = useState({ email: '', password: '' });
@@ -9,7 +10,6 @@ export default function Login() {
   };
 
   const handleLogin = () => {
-    // Replace with your login API call
     fetch('/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -19,7 +19,6 @@ export default function Login() {
       .then((data) => {
         if (data.success) {
           alert('Login successful');
-          // redirect, set auth, etc.
         } else {
           alert('Login failed');
         }
@@ -28,7 +27,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className="login-container">
       <h2>Login</h2>
       <input
         name="email"

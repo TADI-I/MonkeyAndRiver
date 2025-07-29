@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './AlertsDashboard.css'; // Make sure the path is correct
+import './AlertsDashboard.css'; 
 export default function AlertsDashboard() {
   const [alerts, setAlerts] = useState([]);
 

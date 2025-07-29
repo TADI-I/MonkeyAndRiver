@@ -1,4 +1,14 @@
 /* AlertsDashboard.css */
+
+.container.user-profile {
+  max-width: 700px;
+  margin: 100px auto 0 auto; /* Moves container down for navbar space */
+  padding: 2rem;
+  background: #fdf6ff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(128, 0, 128, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
 .alerts-list {
   list-style: none;
   padding: 0;

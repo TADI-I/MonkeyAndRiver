@@ -1,0 +1,135 @@
+/* Container styling */
+.diagnostic-tests {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 2.5rem;
+  background: linear-gradient(to bottom right, #fdf6ff, #f2e9ff);
+  border-radius: 20px;
+  box-shadow: 0 12px 20px rgba(160, 32, 240, 0.12);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.diagnostic-tests h2 {
+  margin-bottom: 1.5rem;
+  color: #4a004e;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+/* Form grouping and spacing */
+.diagnostic-tests .form-group {
+  margin-bottom: 1.25rem;
+}
+
+/* Input field styling */
+.diagnostic-input {
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1rem;
+  border: 2px solid #d4b9f5;
+  border-radius: 10px;
+  background-color: #fefaff;
+  color: #4a004e;
+  transition: all 0.3s ease;
+}
+
+.diagnostic-input:focus {
+  border-color: #a020f0;
+  box-shadow: 0 0 0 3px rgba(160, 32, 240, 0.2);
+  background-color: #f8f0ff;
+  outline: none;
+}
+
+/* Create button styling */
+.diagnostic-button {
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, #a020f0, #c560ff);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.diagnostic-button:hover {
+  background: linear-gradient(to right, #7a1fc7, #a957f5);
+  transform: translateY(-2px);
+}
+
+/* List styling */
+.diagnostic-tests ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+/* Individual test item */
+.diagnostic-tests li {
+  padding: 1rem;
+  background: #f9f1ff;
+  border-left: 4px solid #a020f0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Delete button */
+.diagnostic-tests li button {
+  background: #ff4d4f;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.diagnostic-tests li button:hover {
+  background: #d9363e;
+}
+
+.diagnostic-button {
+  width: auto;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, #a020f0, #c560ff);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: block;
+  margin: 0 auto; /* centers the button horizontally */
+}
+
+.diagnostic-button:hover {
+  background: linear-gradient(to right, #7a1fc7, #a957f5);
+  transform: translateY(-2px);
+}
+
+.diagnostic-tests .form-group:last-child {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
